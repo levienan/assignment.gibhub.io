@@ -1,0 +1,29 @@
+/* chọn size màn hình xem theo size mobile */
+@media screen and (max-width: 768px) {
+  #nav-bar img {
+    display: none;
+  }
+  #nav-bar .container {
+    display: block;
+    text-align: left;
+  }
+  #nav-bar div {
+    border: none;
+  }
+  .d1 {
+    display: block;
+    border-bottom: #d6c08d solid;
+  }
+  .d1 div {
+    margin-top: 12px;
+  }
+  .d1 p {
+    font-weight: bold;
+    text-align: center;
+  }
+  .d1 li {
+    color: rgb(72, 72, 72);
+    text-align: left;
+  }
+}
+/* điều chỉnh tương tự phần tablet.css */

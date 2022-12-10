@@ -1,0 +1,305 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 992px) {
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1200px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#nav-bar .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+/* tạo avatar */
+#nav-bar img {
+  padding: 0;
+  border: white solid 10px;
+  border-radius: 50%;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: -40px;
+  left: 43%;
+}
+
+#nav-bar div {
+  border-left: #d6c08d solid;
+  padding: 0px 20px;
+}
+/* tạo hiệu ứng cho link khi đưa hoặc nhấp chuột vào */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(164, 20, 34);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(25, 183, 35);
+  text-decoration: none;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+}
+/* tạo độ mờ cho hình ảnh */
+.im {
+  filter: brightness(50%);
+  object-fit: cover;
+  height: 500px;
+}
+
+#banner {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h3 {
+  margin: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.icon {
+  margin: 20px;
+  color: blue;
+}
+
+#target {
+  margin-top: 20px;
+  font-size: large;
+}
+#personal-info {
+  font-size: large;
+}
+.section-title {
+  padding: 20px;
+}
+li {
+  margin-top: 12px;
+}
+
+#job-info .container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  gap: 20px;
+}
+#job-info i {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* chọn vị trí cho các item  */
+.hd {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: orange;
+  padding: 20px;
+}
+
+.kn {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: #995473;
+  padding: 20px;
+}
+
+.hv {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: green;
+  padding: 20px;
+}
+
+.st {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.nn {
+  background-color: rgb(139, 102, 181);
+  padding: 20px;
+}
+
+.kng {
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+.d {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: auto;
+  text-align: justify;
+}
+
+.dd {
+  grid-column: 1 / -1;
+  text-align: start;
+}
+
+.d3 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+/* tạo khung hình tròn cho icon  */
+.d3 i {
+  border: purple solid 3px;
+  border-radius: 50%;
+  font-size: 1em;
+  padding: 0.5rem;
+  color: purple;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem 0.2rem;
+  text-align: center;
+}
+/* kẻ đường tiến độ cho phần ngoại ngữ và kỹ năng */
+.s1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.s2 {
+  background: #e9eeef;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+#certificate .container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  text-align: center;
+}
+/* chỉnh cho tựa đề kéo dài hết hàng đầu tiên */
+.cer-head {
+  grid-column: 1 / -1;
+}
+
+.d1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px;
+}
+
+img {
+  width: 75%;
+  padding-left: 50px;
+}
+
+.line {
+  border-bottom: #d6c08d solid;
+}
+.line1 {
+  border-left: #d6c08d solid;
+}
+/* định dạng và chia cột grid cho Dự án */
+.da-nd {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px; */
+  text-align: left;
+  box-sizing: border-box;
+}
+.da-nd img {
+  margin: 0;
+  padding: 0;
+  /* để chiều ngang hình ảnh lấp đầy chiều ngang grid item   */
+  width: 100%;
+}
+.da1 {
+  display: grid;
+  grid-template-rows: 40px 40px auto auto auto;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+  border: #d5d2d2 solid;
+  margin: 0;
+}
+.da1 div {
+  border-bottom: #d5d2d2 solid;
+}
+
+.da2 {
+  /* display: grid; */
+  grid-template-columns: 1fr 3fr;
+  text-align: left;
+}
+
+h2 + p {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+.da2 > div {
+  padding: 5px;
+}
+/* bỏ phần gạch dưới khung cho hàng cuối */
+.da2:last-child {
+  border-bottom: #f7f7f7;
+}
+/* chỉnh khung grid cột đầu tiên cho bằng 2 cột còn lại */
+/* .add {
+  padding-bottom: 28.4px;
+} */
+/* bỏ phần gạch dưới khung cho hàng cuối */
+.da1 .kesu {
+  border-bottom: #f7f7f7;
+}
+/* định dạng flex layout cho phần footer */
+#footer .container {
+  display: flex;
+  font-size: 30px;
+  color: brown;
+  align-items: center;
+  justify-content: center;
+}
+#footer .container div {
+  margin: 0px 30px;
+}
+/* tạo nền màu cho năm */
+.year {
+  display: inline-block;
+  border-radius: 40%;
+  background-color: gold;
+  padding: 5px 15px;
+}
+#project h2 {
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}

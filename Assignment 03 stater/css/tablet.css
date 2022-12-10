@@ -1,0 +1,31 @@
+/* chọn size màn hình xem theo size tablet */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* ẩn hình nằm giưa thanh navbar */
+  #nav-bar img {
+    display: none;
+  }
+  /* điều chỉnh lại phần navbar theo màn hình */
+  #nav-bar .container {
+    display: block;
+    text-align: left;
+  }
+  #nav-bar div {
+    border: none;
+  }
+  /* điều chỉnh lại phần chứng chỉ - giải thưởng cho phù hợp với màn hình tablet */
+  .d1 {
+    display: block;
+    border-bottom: #d6c08d solid;
+  }
+  .d1 div {
+    margin-top: 12px;
+  }
+  .d1 p {
+    font-weight: bold;
+    text-align: center;
+  }
+  .d1 li {
+    color: rgb(72, 72, 72);
+    text-align: left;
+  }
+}
